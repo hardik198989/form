@@ -1,0 +1,200 @@
+.App {
+    text-align: center;
+}
+a.nav-link{
+    color: black !important;
+}
+.rick_h a {
+    padding: 10px 12px;
+    text-decoration: none;
+    
+    font-size: 17px;
+    border-bottom: 3px solid transparent;
+    color: black;
+
+}
+
+.rick_h {
+    justify-content: center;
+    display: flex;
+}
+/* Rickmorty */
+/*  */
+.rickapi{
+    margin-top: 50px;
+}
+.rickapi h1{
+    background: rgb(32, 35, 41);
+    font-size: 50px;
+    color: rgb(255, 152, 0);
+    padding: 0px 0px 6.5px;
+    margin-top: 20px;
+}
+.app_morty{
+    background-color: hsla(0,0%,0%,0.8);
+
+}
+.rick_img{
+    margin: 15px;
+    background: rgb(32, 35, 41);
+    border-radius: 20px;
+}
+.section{
+    color: azure;
+    margin-left: 15px;
+}
+.section a{
+    text-decoration: none;
+    color: white;  
+}
+.section a:hover{
+    color:rgb(255, 152, 0) ;
+}
+.maic{
+    margin-top: 20px;
+}
+
+/* main header */
+.logo_header{
+    justify-content: space-between;
+     
+}
+.top_header{
+    border-bottom: 1px solid black;
+}
+.social_icon svg{
+    font-size: 20px;
+    margin: 5px;
+    align-items: center;
+}
+.social_icon svg{
+    align-items: center;
+    margin-top: 10px;
+}
+
+.liststyli{
+    list-style: none;
+    align-items: center;
+    padding: 10px;
+}
+.liststyli li{
+    margin: 10px;
+    
+}
+.liststyli a {
+    text-decoration: none;
+    color: black;
+}
+.social_icon svg{
+    margin-top: 25px;
+    
+}
+
+/* menu bar */
+.menu_bar ul{
+    list-style: none;
+    border: 1px solid black;
+    width: 230px;
+    border-bottom: 1px solid black;
+    height: 190px;
+    margin-top: 30px;
+    box-shadow: 2px 2px 2px solid black;
+    /* padding: 0px 0px 0px 32px; */
+    
+    margin: 30px 0px 12px;
+}
+.menu_bar ul li {
+    /* border-bottom: 2px solid black; */
+    box-shadow: 2px solid black;
+    margin: 17px;
+}
+.menu_bar ul li:hover{
+    color: orange !important;
+    /* background-color: black !important; */
+}
+/*  */
+.product {
+    margin-top: 20px;
+    margin: 10px;
+}
+ .pro_item img{
+    width: 320px;
+    height: 300px;
+
+    
+}
+.pro_item {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    margin: 10px;
+    
+}
+.pro_like{
+    margin-left: 20px;
+}
+.pro_info{
+    margin-left: 15px;
+}
+.pro_rating{
+    justify-content: left !important;
+
+}
+.pro_rating p{
+    background-color: green;
+    width: 70px;
+    text-align: center;
+    border-radius: 10px ;
+    height: 28px;
+    color: white;
+}
+/* first header */
+
+.btn a{
+    background-color: #04A; 
+    margin-top: 10px;
+    border: none;
+    color: white;
+    padding: 10px 22px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 20px;
+}
+/* single product */
+.single-offers p img{
+    width: 50px;
+    height: 50px;
+}
+.single{
+    margin-top: 40px;
+}
+.slider_img img{
+    width: 60px;
+    height: 50px;
+    margin: 10px;
+    border: 1px solid rgb(122, 118, 118);
+
+}
+.single-buy{
+    margin-top: 40px;
+    
+
+}
+.single-polisi {
+    border: 1.5px solid black;
+    background-color:rgb(139, 139, 175);
+    border: 20px;
+}
+.icon {
+    border: 1px solid rgb(73, 57, 134);
+    color: white;
+}
+/* addcart */
+.product_img img{
+    width: 250px;
+}
+.price_cart{
+    margin-top: 30px;
+    
+}
