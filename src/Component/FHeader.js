@@ -22,7 +22,7 @@ function FHeader() {
                             <ul className='d-flex liststyli'>
                                 {/* <Link ><li>Home</li></Link> */}
                                 <Link to={'cart'}><li>product details</li></Link>
-                                <Link><li>About us</li></Link>
+                                {/* <Link><li>About us</li></Link> */}
                             </ul>
                             <Form.Control type="password" id="inputPassword5" aria-describedby="passwordHelpBlock" placeholder='Search Bar....!' style={{ width: '400px', height: '50px', marginTop: '10px' }} />
                             <div className='social_icon  d-flex'>
